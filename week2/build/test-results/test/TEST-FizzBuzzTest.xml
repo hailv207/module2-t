@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FizzBuzzTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-18T15:37:02" hostname="vuhaile-host" time="0.031">
+<testsuite name="FizzBuzzTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-18T15:39:50" hostname="vuhaile-host" time="0.05">
   <properties/>
-  <testcase name="testCaseDivisible35()" classname="FizzBuzzTest" time="0.02"/>
+  <testcase name="testCaseDivisible35()" classname="FizzBuzzTest" time="0.034"/>
   <testcase name="testCaseDivisible3()" classname="FizzBuzzTest" time="0.001"/>
   <testcase name="testCaseDivisible5()" classname="FizzBuzzTest" time="0.001"/>
-  <testcase name="testCaseContain3()" classname="FizzBuzzTest" time="0.001"/>
-  <testcase name="testCaseContain5()" classname="FizzBuzzTest" time="0.001"/>
-  <testcase name="testCaseContain35()" classname="FizzBuzzTest" time="0.002"/>
+  <testcase name="testCaseContain3()" classname="FizzBuzzTest" time="0.003"/>
+  <testcase name="testCaseContain5()" classname="FizzBuzzTest" time="0.002"/>
+  <testcase name="testCaseContain35()" classname="FizzBuzzTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

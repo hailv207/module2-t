@@ -30,14 +30,14 @@ public class FizzBuzzTest {
     @DisplayName("case contain 3")
     public void testCaseContain3(){
         int number = 239;
-        String expectedResult = "2Fizz9";
+        String expectedResult = "TwoFizzNine";
         assertEquals(expectedResult,FizzBuzz.returnFizzBuzz(number));
     }
     @Test
     @DisplayName("case contain 5")
     public void testCaseContain5(){
         int number = 857;
-        String expectedResult = "8Buzz7";
+        String expectedResult = "EightBuzzSeven";
         assertEquals(expectedResult,FizzBuzz.returnFizzBuzz(number));
     }
 
@@ -45,7 +45,7 @@ public class FizzBuzzTest {
     @DisplayName("case contain 3,5")
     public void testCaseContain35(){
         int number = 358;
-        String expectedResult = "FizzBuzz8";
+        String expectedResult = "FizzBuzzEight";
         assertEquals(expectedResult,FizzBuzz.returnFizzBuzz(number));
     }
 }
