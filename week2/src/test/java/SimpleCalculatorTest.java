@@ -1,15 +1,13 @@
-import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-//import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-
-//import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SimpleCalculatorTest {
 
     @Test
-//    @DisplayName("Testing add 0 + 0")
+    @DisplayName("Testing add 0 + 0")
     public void testAdd0And0() {
         int first = 0;
         int second = 0;
@@ -20,7 +18,7 @@ public class SimpleCalculatorTest {
     }
 
     @Test
-//    @DisplayName("Testing add 1 + 0")
+    @DisplayName("Testing add 1 + 0")
     public void testAdd1And0() {
         int first = 1;
         int second = 0;
@@ -31,7 +29,7 @@ public class SimpleCalculatorTest {
     }
 
     @Test
-//    @DisplayName("Testing add 0 + 1")
+    @DisplayName("Testing add 0 + 1")
     public void testAdd0And1() {
         int first = 0;
         int second = 1;
@@ -42,7 +40,7 @@ public class SimpleCalculatorTest {
     }
 
     @Test
-//    @DisplayName("Testing add 0 + 0")
+    @DisplayName("Testing add 0 + 0")
     public void testAdd5And3() {
         int first = 5;
         int second = 3;
@@ -53,7 +51,7 @@ public class SimpleCalculatorTest {
     }
 
     @Test
-//    @DisplayName("Testing sub 0 - 0")
+    @DisplayName("Testing sub 0 - 0")
     public void testSub0and0() {
         int first = 0;
         int second = 0;
@@ -64,7 +62,7 @@ public class SimpleCalculatorTest {
     }
 
     @Test
-//    @DisplayName("Testing sub 1 - 0")
+    @DisplayName("Testing sub 1 - 0")
     public void testSub1and0() {
         int first = 1;
         int second = 0;
@@ -75,7 +73,7 @@ public class SimpleCalculatorTest {
     }
 
     @Test
-//    @DisplayName("Testing sub 0 - 1")
+    @DisplayName("Testing sub 0 - 1")
     public void testSub0and1() {
         int first = 0;
         int second = 1;
@@ -86,7 +84,7 @@ public class SimpleCalculatorTest {
     }
 
     @Test
-//    @DisplayName("Testing sub 0 - 0")
+    @DisplayName("Testing sub 0 - 0")
     public void testSub5and3() {
         int first = 5;
         int second = 3;
