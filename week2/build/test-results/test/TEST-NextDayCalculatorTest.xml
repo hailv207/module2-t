@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="NextDayCalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-18T09:46:26" hostname="vuhaile-host" time="0.023">
+<testsuite name="NextDayCalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-18T09:54:15" hostname="vuhaile-host" time="0.023">
   <properties/>
   <testcase name="testNextdayInvalidDate()" classname="NextDayCalculatorTest" time="0.016"/>
-  <testcase name="testNextday2020Aug30()" classname="NextDayCalculatorTest" time="0.001"/>
-  <testcase name="testNextday2020Dec31()" classname="NextDayCalculatorTest" time="0.001"/>
-  <testcase name="testNextday2020Feb28()" classname="NextDayCalculatorTest" time="0.0"/>
-  <testcase name="testNextday2021Feb28()" classname="NextDayCalculatorTest" time="0.001"/>
+  <testcase name="testNextday2018Apr30()" classname="NextDayCalculatorTest" time="0.002"/>
+  <testcase name="testNextday2018Feb28()" classname="NextDayCalculatorTest" time="0.0"/>
+  <testcase name="testNextday2018Jan31()" classname="NextDayCalculatorTest" time="0.001"/>
+  <testcase name="testNextday2020Feb29()" classname="NextDayCalculatorTest" time="0.001"/>
+  <testcase name="testNextday2018Jan1()" classname="NextDayCalculatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
