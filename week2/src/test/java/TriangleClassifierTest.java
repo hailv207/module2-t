@@ -16,7 +16,7 @@ public class TriangleClassifierTest {
     }
 
     @Test
-    @DisplayName("case equilateral triangle")
+    @DisplayName("case isosceles triangle")
     public void testIsoscelesTriangle(){
         double firstSide = 2;
         double secondSide = 2;
@@ -40,7 +40,7 @@ public class TriangleClassifierTest {
     }
 
     @Test
-    @DisplayName("case equilateral triangle 1")
+    @DisplayName("case unreal triangle 1")
     public void testUnrealTriangleCase1(){
         double firstSide = 8;
         double secondSide = 2;
@@ -51,7 +51,7 @@ public class TriangleClassifierTest {
     }
 
     @Test
-    @DisplayName("case equilateral triangle 2")
+    @DisplayName("case unreal triangle 2")
     public void testUnrealTriangleCase2(){
         double firstSide = -1;
         double secondSide = 2;
@@ -63,7 +63,7 @@ public class TriangleClassifierTest {
 
 
     @Test
-    @DisplayName("case equilateral triangle 3")
+    @DisplayName("case unreal triangle 3")
     public void testUnrealTriangleCase3(){
         double firstSide = 0;
         double secondSide = 1;
@@ -73,14 +73,15 @@ public class TriangleClassifierTest {
         assertEquals(expectedResult,TriangleClassifier.classifyTriangle(0,1,1));
     }
 
-    @Test
-    @DisplayName("case equilateral triangle 3")
-    public void testIsoscelesRightTriangle(){
-        double firstSide = 0;
-        double secondSide = 1;
-        double thirdSide = 1;
 
-        String expectedResult = "Is not a Triangle";
-        assertEquals(expectedResult,TriangleClassifier.classifyTriangle(0,1,1));
+    @Test
+    @DisplayName("case normal triangle 3")
+    public void testNormalTriangle(){
+        double firstSide = 5;
+        double secondSide = 6;
+        double thirdSide = 8;
+
+        String expectedResult = "Normal Triangle";
+        assertEquals(expectedResult,TriangleClassifier.classifyTriangle(5,6,8));
     }
 }

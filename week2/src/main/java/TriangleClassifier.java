@@ -16,7 +16,7 @@ public class TriangleClassifier {
             } else if (firstSide == secondSide || firstSide == thirdSide || secondSide == thirdSide) {
                 resultString = "Isosceles Triangle";
             } else {
-                resultString = "Normal Trinangle";
+                resultString = "Normal Triangle";
             }
         } else {
             resultString = "Is not a Triangle";
