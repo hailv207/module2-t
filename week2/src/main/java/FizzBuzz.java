@@ -1,4 +1,7 @@
 public class FizzBuzz {
+    public static void main(String[] args) {
+        System.out.println(returnFizzBuzz(137));
+    }
     public static String returnFizzBuzz(int number) {
         String resultString = "";
         if (number % 3 == 0) {
