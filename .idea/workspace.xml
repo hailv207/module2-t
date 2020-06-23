@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf27b2bc-a173-4d8a-965a-4ba67918761c" name="Default Changelist" comment="" />
+    <list default="true" id="bf27b2bc-a173-4d8a-965a-4ba67918761c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/week3/src/main/java/SinglyLinkedListQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/week3/src/main/java/SinglyLinkedListQueueTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +31,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592540504499</updated>
       <workItem from="1592540505702" duration="186000" />
+      <workItem from="1592900099460" duration="29000" />
     </task>
     <servers />
   </component>

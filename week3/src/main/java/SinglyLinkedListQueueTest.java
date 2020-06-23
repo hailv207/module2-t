@@ -6,7 +6,5 @@ public class SinglyLinkedListQueueTest {
         singlyLinkedListQueue.enQueue(3);
         singlyLinkedListQueue.deQueue();
         singlyLinkedListQueue.displayQueue();
-
-
     }
 }
