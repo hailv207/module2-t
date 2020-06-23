@@ -1,11 +1,11 @@
 import java.util.LinkedList;
 
-public class CircularLinkedListQueue {
+public class SinglyLinkedListQueue {
     private Node rear;
     private Node front;
     private int size = 0;
 
-    public CircularLinkedListQueue() {
+    public SinglyLinkedListQueue() {
         rear = null;
         front = null;
     }
