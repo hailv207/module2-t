@@ -69,7 +69,12 @@ public class ProductManager {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the name of Product:");
         String str = scanner.nextLine();
-        System.out.println(getProductByName(str));
+        ArrayList<Product> result = getProductByName(str);
+        System.out.println("---Products list:---");
+        for (Product p : result) {
+            System.out.println(p);
+        }
+        System.out.println("---End of products list---");
     }
 
     public void sortProduct() {
@@ -95,9 +100,12 @@ public class ProductManager {
         System.out.println("Please enter the ID of the product you want to edit:");
         int editingID = scanner.nextInt();
         if (isExistID(editingID)) {
+            int newID;
             System.out.println("You are going to edit product information of: " + getProductByID(editingID));
-            System.out.println("Please enter the new Product ID:");
-            int newID = scanner.nextInt();
+            do {
+                System.out.println("Please enter the new Product ID:");
+                newID = scanner.nextInt();
+            } while ((newID == getProductByID(editingID).getProductID()) ? false : isExistID(newID));
             System.out.println("Please enter the new Product name:");
             scanner.nextLine();
             String newName = scanner.nextLine();
@@ -153,13 +161,14 @@ public class ProductManager {
         throw new IndexOutOfBoundsException("ID was not found.");
     }
 
-    private Product getProductByName(String productName) {
+    private ArrayList<Product> getProductByName(String productName) {
+        List<Product> result = new ArrayList<>();
         for (int i = 0; i < this.size(); i++) {
             if (productName.equals(products.get(i).getName())) {
-                return products.get(i);
+                result.add(products.get(i));
             }
         }
-        throw new IndexOutOfBoundsException("Product name was not found.");
+        return (ArrayList<Product>) result;
     }
 
     private boolean editProduct(Product product, int newID, String newName, int newPrice) {

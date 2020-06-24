@@ -34,7 +34,7 @@ public class Product {
 
     @Override
     public String toString() {
-        String str = "Product ID: " + getProductID() + " | Product name: " + getName() + " | Price: " + getPrice() + ".";
+        String str = "Product ID: " + getProductID() + " | Product name: " + getName() + " | Price: " + getPrice() + "$.";
         return str;
     }
 }
