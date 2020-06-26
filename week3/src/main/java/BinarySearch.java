@@ -16,6 +16,7 @@ public class BinarySearch {
         }
         System.out.println();
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter search value:");
         int key = scanner.nextInt();
         System.out.println("Binary search result: " + binarySearch(list, key));
         System.out.println("Binary search using recursion result: " + recursionBinarySearch(list, key, 0, list.length - 1));
